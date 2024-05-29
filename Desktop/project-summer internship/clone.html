@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Lenovo\Desktop\project-summer internship\normalize.css">
+    <title>Document</title>
+    <style>
+        /* header > nav {
+            display: none;
+        } */
+        @media screen and (min-width:1024px) {
+            
+        }
+        .wrapper {
+            display: grid;
+            /* width: 100dvw ;
+            height: 100dvh; */
+            /* background-color: aqua; */
+            gap: 10px;
+            height: 100dvh;
+            grid-template-columns:repeat(2,150px);
+            grid-template-rows:repeat(3,150px) ;
+            background-color: rgb(255, 232, 100);
+            justify-content: center;
+            align-content: center;
+        }
+        .box{
+            background-color: aqua;
+            border-radius: 10px;
+            
+        }
+        .box:nth-child(1){
+
+            background-image: url(sujal.JPG );
+            background-repeat: no-repeat;
+            background-size:cover;
+            /* grid-row: span 2; */
+        }
+        .box:nth-child(2){
+            background-image: url(sujal.JPG );
+            background-repeat: no-repeat;
+            background-size:cover; 
+            /* grid-row: span 3;  */
+        }
+        .box:nth-child(3){
+            background-image: url(sujal.JPG );
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        .box:nth-child(4){
+            background-image: url(sujal.JPG );
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        .box:nth-child(5){
+            background-image: url(sujal.JPG );
+            background-repeat: no-repeat;
+            background-size:cover;
+            /* column-span: 2; */
+        }
+        .box:nth-child(6){
+            background-image: url(sujal.JPG );
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+            
+            
+            
+    </style>
+
+
+</head>
+<body>
+    <header style="display: flex; list-style-type: none; gap:20px; align-items: center; justify-content:space-between">
+        <img src="sujal.JPG" width="70px" height="36px" border-radius="7px">
+        <ul style="display: flex; gap: 20px;" >
+            <li style="list-style-type: none; margin:0; padding:0 "><a href="#about">about</a></li>
+            <li style="list-style-type: none; margin:0; padding:0 "><a href="#courses">courses</a></li>
+            <li style="list-style-type: none; margin:0; padding:0 "><a href="#events">events</a></li>
+            <li style="list-style-type: none; margin:0; padding:0 "><a href="#blogs">blogs</a></li>
+            <li style="list-style-type: none; margin:0; padding:0 "><a href="#resources">resources</a></li>
+        </ul>
+        <button>contact</button>
+        
+    </header>
+
+    
+        <div class="wrapper">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+    </div>
+    
+</body>
+</html>

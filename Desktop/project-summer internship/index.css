@@ -1,0 +1,97 @@
+.b ul li{
+   list-style: none;
+   padding:3px;
+   }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a{
+    display:flex;
+    border-radius: 15px ; 
+    width: 820px;
+    padding: 20px;
+    background-color:whitesmoke;
+}
+.c{
+    background-image: url(illustration-sign-up-desktop.svg);
+    height: 593px;
+    width: 400px;
+}
+
+.b{
+    padding-top: 30px;
+}
+
+body{
+    background-color: black;
+}
+
+input {
+    border-color: black;
+    border-radius: 10px;
+    background-color: white;
+    height: 30px;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 390px;
+}
+#btn{
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: #242124;
+    color: white;
+    width: 400px;
+    height: 40px;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sm {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sm input[type="email"] {
+    margin-left: px;
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+@media (max-width: 520px) {
+    .a {
+        flex-direction: column-reverse;
+        margin: 0px;
+        width: 100%;
+
+    }
+
+    .c{
+        background-image: url(illustration-sign-up-mobile.svg);
+       width: 365px;
+       height: 284px; 
+       padding-left: 10px;
+    }
+
+    .b{
+        padding: 16px;
+    }
+
+    input{
+        margin-left: -5px;
+        width: 300px;
+        height: 50px;
+    }
+
+    #btn{
+        margin-left: -5px;
+        width: 310px;
+        height: 50px;
+    }
+
+}

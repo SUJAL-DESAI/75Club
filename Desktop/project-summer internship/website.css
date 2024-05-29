@@ -1,0 +1,94 @@
+body {
+    background-color: #E8E8E8 ;
+    font-family: sans-serif;
+
+    width:fit-content;
+    height:fit-content;
+    
+ 
+}
+.innbox .button-container {
+    padding: 70px 324px 38px 128px ;
+    margin: 0px 0px 0px 41px;
+    
+    
+}
+.color-button {
+    border: none;
+    border-radius: 200px;
+    font-size: 25px;
+    color: grey;
+    cursor: pointer;
+}
+.button1 { background-color: #E8E8E8; }
+.button2 { background-color: #E8E8E8; }
+.button3 { background-color: #E8E8E8; }
+.button4 { background-color: #E8E8E8; }
+
+.box {
+    display:flex;
+    width:650px;
+    height:875px;
+    border-radius:10px 20px 20px 10px;
+    background-color: white;
+    
+}
+
+#textbox {
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: #E8E8E8;
+    color: grey;
+    margin-left: 10px;
+    width: 350px;
+    height: 30px;
+}
+#btn {
+    align-items: center;
+    border-color: transparent;
+    border-radius: 20px;
+    background-color: lightskyblue;
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 350px;
+    height: 30px;
+}
+
+.innbox .innnbox{
+    padding: 180px 140px 10px 170px ;
+}
+
+.box2{
+    margin-left: 200px;
+    width:500px;
+    height: 905px;
+    padding: 10px;
+}
+
+.box2 h4{
+    margin-left: 300px;
+
+}
+
+#img1{
+    width: 730px;
+    height: 620px;
+}
+#img2{
+    width: 700px;
+    height: 150px;
+}
+
+.innbox a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.link{
+    color: black;
+    padding-top: 212px;
+    padding-left: 115px;
+}
+
+
