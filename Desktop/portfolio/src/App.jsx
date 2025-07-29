@@ -33,7 +33,7 @@ const App = () => {
             </a>
             <a
               href="tel:+91-9327256546"
-              className="text-gray-500 hover:text-green-500 transition"
+              className="text-gray-500 hover:text-green-500 transition "
             >
               📞
             </a>
