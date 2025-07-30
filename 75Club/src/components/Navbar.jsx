@@ -36,7 +36,7 @@ const Navbar = () => {
       {/* Navigation Tabs */}
       <div className="tabs">
         <NavLink to="/referral" className={({ isActive }) => isActive ? "tab active" : "tab"}>Invitation</NavLink>
-        <NavLink to="/overview" className={({ isActive }) => isActive ? "tab active" : "tab"}>My Data</NavLink>
+        <NavLink to="/Mydata" className={({ isActive }) => isActive ? "tab active" : "tab"}>My Data</NavLink>
         <NavLink to="/rewards" className={({ isActive }) => isActive ? "tab active" : "tab"}>Rewards Center</NavLink>
         <NavLink to="/record" className={({ isActive }) => isActive ? "tab active" : "tab"}>Record</NavLink>
         <NavLink to="/invitee-list" className={({ isActive }) => isActive ? "tab active" : "tab"}>Invitee List</NavLink>

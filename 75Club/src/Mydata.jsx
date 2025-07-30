@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './Overview.css';
+import './Mydata.css';
 
-const Overview = () => {
+const Mydata = () => {
   const [title, setTitle] = useState("summary");
 
   const cards = [
@@ -164,4 +164,4 @@ const Overview = () => {
   );
 };
 
-export default Overview;
+export default Mydata;

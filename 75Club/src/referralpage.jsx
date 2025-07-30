@@ -55,7 +55,7 @@ const ReferralPage = () => {
       {/* Bottom Rewards Section */}
       <div className="rewards-row">
         <video className="reward-icon" autoPlay loop muted playsInline>
-          <source src="/gif.mp4" type="video/mp4" />
+          <source src="/gif.mp4" type="video/mp4" width={20} height={30} />
           Your browser does not support the video tag.
         </video>
       </div>
